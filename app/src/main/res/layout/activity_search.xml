@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchActivity">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="垃圾分类检索"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/searchBox"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit1"
+        android:hint="想扔什么垃圾呢..."
+        android:paddingLeft="10dp"/>
+    <Button
+        android:id="@+id/search"
+        android:layout_width="40dp"
+        android:layout_height="43dp"
+        android:drawableLeft="@drawable/search"
+        android:background="@drawable/sc_btn"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="310dp"/>
+
+</RelativeLayout>
